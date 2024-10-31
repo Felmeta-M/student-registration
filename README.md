@@ -1,4 +1,4 @@
-# To run
+To run
 ## Backend
 #### cd backend
 #### npm install
