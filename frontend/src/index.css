@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.student-form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  }
+
+.student-form h2{
+  margin: 20px 0px;
+  padding: 20px 0;
+  font-weight: 500;
+}
+
+.student-form label{
+  color: #555;
+}
+
+.student-form input{
+  margin: 10px 0;
+  width: 300Px;
+  height: 25px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.student-form select{
+  margin: 10px 0;
+  width: 312px;
+  height: 38px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  color: gray;
+}
+
+.form-item{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  width: 100%;
+  border: none;
+  padding: 15px 20px;
+  background-color: #2e2f5b;
+  color: white;
+  cursor: pointer;
+  margin: 20px 0px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.link{
+  text-decoration: none;
+  color: #2e2f5b;
+  margin-top: 10px;
+}
+
+.link:hover{
+  color: #72729d;
+}
+
+.success{
+  color: green;
+  font-size: 1em;
+}
+
+.error{
+  color: red;
+  font-size: 0.8em;
+}
+
+.student-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.student-list h2{
+  padding: 20px 0;
+  font-weight: 500;
+
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+th {
+  background-color: #2e2f5b; 
+  color: white; 
+  padding: 10px; 
+  text-align: left; 
+}
+
+td {
+  padding: 8px; 
+  border-bottom: 1px solid #ddd; 
+  background-color: white;
+  color:#555;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100px; 
+}
