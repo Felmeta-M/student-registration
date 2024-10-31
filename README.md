@@ -1,11 +1,17 @@
 # To run
+
 ## Backend
-#### cd backend
-#### npm install
+
+####1. cd backend
+####2. npm install
+
 #### create env file at the root of backend and add mongodb connection string
-#### MONGO_URL = {'your-connection-string'}
-#### npm start
+
+####3. MONGO_URL = {'your-connection-string'}
+####4. npm start
 
 ## Frontend
-#### cd fontend
-#### npm run dev
+
+####1. cd fontend
+####2. npm install
+####3. npm run dev
